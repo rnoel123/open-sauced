@@ -1,4 +1,4 @@
-import React from "react";
+iatlyimport React from "react";
 import {MarketingButton} from "../styles/Button";
 import {Wrapper} from "../styles/Header";
 import {FlexColumnCenter, FlexCenter} from "../styles/Grid";
@@ -11,7 +11,7 @@ function Hero({handleLogIn}) {
         <Card>
           <FlexColumnCenter>
             <h1>Open Sauced Dashboard</h1>
-            <p>Login with GitHub to start tracking open source projects.</p>
+            <p>Login with GitHub to start tracking open source projects immediately.</p>
             <br />
             <FlexCenter>
             <MarketingButton alt="pizza" primary onClick={handleLogIn}>
